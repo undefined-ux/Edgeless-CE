@@ -2,10 +2,10 @@ name: Build Release
 on:
     push:
       branches: [master]
-    tags:
-      - "release-*"
-      - "beta-*"
-      - "alpha-*"
+      tags:
+        - "release-*"
+        - "beta-*"
+        - "alpha-*"
 
 jobs:
   DownloadWindowsImageAndWimbuilder2:
