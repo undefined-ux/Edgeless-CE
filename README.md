@@ -5,7 +5,7 @@
 
 Edgeless-CE(comunity edition)
 强大而优雅的PE工具
-同时也许是东半球第一个"开源"(除了setTheme.cmd)的PE项目
+同时也许是东半球第二个"开源"(除了setTheme.cmd)的PE项目
 
 许可证
 Edgeless及Edgeless-CE的自编代码基于MPL2.0许可证开源，除了setTheme.cmd
