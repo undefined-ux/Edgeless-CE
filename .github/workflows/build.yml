@@ -14,7 +14,7 @@ jobs:
       - name: wimbuilder2
         run: |
           aria2c "https://onemanager-one-virid.vercel.app/main/wimbuilder2.zip"
-          powershell -command "Expand-Archive -Force '%~dp0wimbulder2.zip' '%~dp0'"
+          7z x wimbuilder2.zip -owimbuilder2
           del wimbuilder2.zip
       - uses: actions/checkout@v3
         with:
