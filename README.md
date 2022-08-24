@@ -1,4 +1,4 @@
-#Edgeless-CE
+# Edgeless-CE
 一个来自第三方的"开源"版本Edgeless
 
 ![image](https://user-images.githubusercontent.com/109799548/186398627-4c0236ef-ae53-4a6d-9493-f8e7d0fee216.png)
@@ -10,7 +10,7 @@ Edgeless-CE(comunity edition)
 许可证
 Edgeless及Edgeless-CE的自编代码基于MPL2.0许可证开源，除了setTheme.cmd
 
-根据MPL2.0许可证，所有使用了Edgeless及Edgeless-CE自编代码的项目均需要注明版权信息（可以是本仓库链接https://github.com/EdgelessPE/Edgeless或是Edgeless主页链接https://home.edgeless.top/，不遵守此条款的项目会被视为侵权项目，Edgeless保留对侵权项目的盗用追究权利
+根据MPL2.0许可证，所有使用了Edgeless及Edgeless-CE自编代码的项目均需要注明版权信息（可以是本仓库链接 https://github.com/EdgelessPE/Edgeless 或是 Edgeless 主页链接https://home.edgeless.top ，不遵守此条款的项目会被视为侵权项目，Edgeless保留对侵权项目的盗用追究权利
 
 显然本仓库内包含的文件不全是Edgeless及Edgeless-CE的自编代码
 
