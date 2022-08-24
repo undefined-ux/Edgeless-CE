@@ -31,4 +31,4 @@ jobs:
       - name: Publish Release
         uses: softprops/action-gh-release@v1
         with:
-          files: [${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso, ${{ github.workspace }}\wimbuilder2\_ISO_\sources\boot.wim]
+          files: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
