@@ -36,6 +36,7 @@ jobs:
         run: |
           ./wimbuilder2/wimbuilder2.cmd --build --source-folder ${{ steps.MountWindowsImage.outputs.driveLetter }}: --source-index 2 --make-iso --close-ui
   Pubilsh:
+    runs-on: windows-latest
     needs: BuildPEImage
     steps:
       - name: Create Draft Release
