@@ -1,4 +1,4 @@
-name: Build Release
+name: Sync To Gitee
 on:
     push:
       branches: [master]
