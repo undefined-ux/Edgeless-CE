@@ -27,26 +27,10 @@ jobs:
         run: |
           $mountResult = Mount-DiskImage ${{ github.workspace }}\zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso -PassThru
           $driveLetter = ($mountResult | Get-Volume).DriveLetter
-          ${{ github.workspace }}\wimbuilder2\WimBuilder.cmd --build --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
-      - name: Create Draft Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          cmd \c ${{ github.workspace }}\wimbuilder2\WimBuilder.cmd --build-with-log --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
+      - name: Publish Release
+        uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ env.github.ref_name }}
-          release_name: ${{ env.github.ref_name }}
-          draft: true
-          prerelease: false
-      - uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
-          asset_name: BOOTPE.iso
-      - uses: eregon/publish-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}
+          files: 
+            - ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
+            - ${{ github.workspace }}\wimbuilder2\_ISO_\sources\boot.wim
