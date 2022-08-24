@@ -9,7 +9,7 @@ on:
 
 jobs:
   DownloadWindowsImageAndWimbuilder2:
-    runs-on: windows
+    runs-on: windows-latest
     steps:
       - name: wimbuilder2
         run: |
