@@ -25,7 +25,7 @@ jobs:
       - name: MountWindowsImage
         shell: pwsh
         run: |
-          $mountResult = Mount-DiskImage ${{ env.GITHUB_WORKSPACE }}\Windows11.iso -PassThru
+          $mountResult = Mount-DiskImage ${{ github.workspace }}\Windows11.iso -PassThru
           $driveLetter = ($mountResult | Get-Volume).DriveLetter
           Write-Output "::set-output name=driveLetter::$(($driveLetter))"
       - name: Build
