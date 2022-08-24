@@ -27,4 +27,6 @@ Clone此仓库，然后将Core部分的文件夹覆盖复制到您的PE项目文
 插件包使用授权
 Edgeless-CE属于Edgeless的分支之一，但是如果您想基于Edgeless-CE魔改出您自己的PE。
 请获取授权（https://wiki.edgeless.top/v2/cooperation/permit.html）
+
+
 2021-2022 Edgeless Community Team and Shilian Software 保留所有权利
