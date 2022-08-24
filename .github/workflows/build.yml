@@ -31,7 +31,7 @@ jobs:
           Write-Output "::set-output name=driveLetter::$(($driveLetter))"
       - name: Build
         run: |
-          ./wimbuilder2/wimbuilder2.cmd --build --source-folder ${{ steps.MountWindowsImage.outputs.driveLetter }}: --source-index 2 --make-iso --close-ui
+          ${{ github.workspace }}\wimbuilder2\WimBuilder.cmd --build --source-folder ${{ steps.MountWindowsImage.outputs.driveLetter }}: --source-index 2 --make-iso --close-ui
       - name: Create Draft Release
         id: create_release
         uses: actions/create-release@v1
@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./wimbuilder2/_Factory_/BOOTPE.iso
+          asset_path: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
           asset_name: BOOTPE.iso
       - uses: eregon/publish-release@v1
         env:
