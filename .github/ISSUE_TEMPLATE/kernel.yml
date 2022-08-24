@@ -1,0 +1,40 @@
+name: Kernel Issue
+description: Report Edgeless Kernel issue, including ept and plugin
+title: "[kernel]: "
+assignees:
+  - undefined
+body:
+  - type: checkboxes
+    id: wiki
+    attributes:
+      label: Official Wiki
+      description: Have you checked our official Wiki at [https://wiki.edgeless.top](https://wiki.edgeless.top/v2/required.html) ?
+      options:
+        - label: I've checked the official Wiki throughout. 
+          required: true
+  - type: dropdown
+    id: hardware
+    attributes:
+      label: Maybe it's a hardware incompatible problem?
+      description: Have you tried with other hardware,like a brandnew USB Flash Drive or a newly bought PC?
+      options:
+        - Yes. I use Edgeless CE with modern hardware.
+        - No. I don't know Edgeless CE Project won't care about compatible.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Edgeless CE Version
+      description: Which version of Edgeless CE are you running?
+      placeholder: 3.2.0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell me what happened. It's highly recommended to include some photo or screenshots.
+      placeholder: Input a bug description or a suggestion with some pictures
+    validations:
+      required: true
