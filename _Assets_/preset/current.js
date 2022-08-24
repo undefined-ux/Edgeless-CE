@@ -224,7 +224,7 @@ function patches_state_init() {
     uncheck_tree_node("02-Apps/Defraggler");
     uncheck_tree_node("02-Apps/Explorer++");
     uncheck_tree_node("02-Apps/HotSwap");
-    check_tree_node("02-Apps/ImDisk");
+    uncheck_tree_node("02-Apps/ImDisk");
     check_tree_node("02-Apps/PENetwork");
     uncheck_tree_node("02-Apps/yong_IME");
     open_tree_node("02-Apps");

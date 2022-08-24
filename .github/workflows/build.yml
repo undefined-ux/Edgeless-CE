@@ -1,0 +1,61 @@
+name: Build Release
+on:
+    push:
+      branches: [master]
+    tags:
+      - "release-*"
+      - "beta-*"
+      - "alpha-*"
+
+jobs:
+  DownloadWindowsImageAndWimbuilder2:
+    runs-on: windows
+    steps:
+      - name: wimbuilder2
+        run: |
+          aria2c "https://onemanager-one-virid.vercel.app/main/wimbuilder2.zip"
+          powershell -command "Expand-Archive -Force '%~dp0wimbulder2.zip' '%~dp0'"
+          del wimbuilder2.zip
+      uses: actions/checkout@v3
+        with:
+          path: ./Wimbuilder2/AppData/Projects
+      - name: windows 11 22000.739
+        run: |
+          aria2c "https://onemanager-one-virid.vercel.app/main/os/zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso"
+  BuildPEImage:
+    runs-on: windows
+    needs: DownloadWindowsImageAndWimbuilder2
+    steps:
+      - name: MountWindowsImage
+        shell: pwsh
+        run: |
+          $mountResult = Mount-DiskImage $GITHUB_WORKSPACE\Windows11.iso -PassThru
+          $driveLetter = ($mountResult | Get-Volume).DriveLetter
+          Write-Output "::set-output name=driveLetter::$(($driveLetter))"
+      - name: Build
+        run: |
+          ./wimbuilder2/wimbuilder2.cmd --build --source-folder ${{ steps.MountWindowsImage.outputs.driveLetter }}: --source-index 2 --make-iso --close-ui
+      - name: Create Draft Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.github.ref_name }}
+          release_name: ${{ env.github.ref_name }}
+          draft: true
+          prerelease: false
+
+      - uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./wimbuilder2/_Factory_/BOOTPE.iso
+          asset_name: BOOTPE.iso
+
+      - uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
