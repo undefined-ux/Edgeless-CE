@@ -10,7 +10,7 @@ Edgeless-CE(comunity edition)
 许可证
 Edgeless及Edgeless-CE的自编代码基于MPL2.0许可证开源，除了setTheme.cmd
 
-根据MPL2.0许可证，所有使用了Edgeless及Edgeless-CE自编代码的项目均需要注明版权信息（可以是本仓库链接https://github.com/EdgelessPE/Edgeless或是Edgeless主页链接https://home.edgeless.top/，不遵守此条款的项目会被视为侵权项目，Edgeless保留对侵权项目的盗用追究权利
+根据MPL2.0许可证，所有使用了Edgeless及Edgeless-CE自编代码的项目均需要注明版权信息（可以是Edgless的仓库链接https://github.com/EdgelessPE/Edgeless 或是Edgeless主页链接https://home.edgeless.top/ ，不遵守此条款的项目会被视为侵权项目，Edgeless保留对侵权项目的盗用追究权利
 
 显然本仓库内包含的文件不全是Edgeless及Edgeless-CE的自编代码
 
@@ -26,7 +26,7 @@ Clone此仓库，然后将Core部分的文件夹覆盖复制到您的PE项目文
 
 插件包使用授权
 Edgeless-CE属于Edgeless的分支之一，但是如果您想基于Edgeless-CE魔改出您自己的PE。
-请获取授权（https://wiki.edgeless.top/v2/cooperation/permit.html）
+请获取授权（https://wiki.edgeless.top/v2/cooperation/permit.html ）
 
 
 2021-2022 Edgeless Community Team and Shilian Software 保留所有权利
