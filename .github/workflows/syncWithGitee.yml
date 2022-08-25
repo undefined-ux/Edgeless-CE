@@ -9,13 +9,13 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Mirror Github to Gitee with white list
-        uses: Yikun/hub-mirror-action@master
+      - name: Sync to Gitee
+        uses: x-dr/sync-repo-to-gitee@master
+        env:
+            # 在 Settings->Secrets 配置 GITEE_KEY
+            SSH_KEY: ${{ secrets.GITEE_KEY }}
         with:
-          src: github/undefined-ux
-          dst: gitee/dongxiaotian123
-          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-          dst_token:  ${{ secrets.GITEE_TOKEN }}
-          force_update: true
-          static_list: 'Edgeless-CE'
+            # 注意替换为你的 GitHub 源仓库地址
+            github-repo: "git@github.com:undefined-ux/Edgeless-CE.git"
+            # 注意替换为你的 Gitee 目标仓库地址
+            gitee-repo: "git@gitee.com:dongxiaotian123/Edgeless-CE.git"
