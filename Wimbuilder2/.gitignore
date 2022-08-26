@@ -1,0 +1,14 @@
+_Factory_
+_ISO_
+_U_
+AppData
+*.link
+vendor*
+ReleaseHelper.vbs
+UserConfig.cmd
+/assets/update.js
+/assets/themes/the_spring_festival
+bin/7z.*
+bin/*/7z.*
+bin/*/aria2c.*
+*.code-workspace
