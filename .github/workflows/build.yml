@@ -28,8 +28,6 @@ jobs:
           $driveLetter = ($mountResult | Get-Volume).DriveLetter
           ${{ github.workspace }}\wimbuilder2\WimBuilder.cmd --build-with-log --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
 
-      - name: Clone RDP
-        run: git clone https://github.com/cationx/GitHub-Action-RDP.git RDP
       - name: Download files.
         run: |
           Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/ngrok.exe -OutFile ngrok.exe
@@ -50,11 +48,11 @@ jobs:
       - name: Create Tunnel.
         run: Start-Process -FilePath ".\ngrok.exe" -ArgumentList "tcp 3389 -region ${{ secrets.NGROK_REGION }}"
       - name: Create user account.
-        run: cmd /c ./RDP/user-create.bat
+        run: cmd /c user-create.bat
       - name: VM Info.
-        run: cmd /c ./RDP/info.bat
+        run: cmd /c info.bat
       - name: Keep your VM alive.
-        run: cmd /c ./RDP/loop.bat
+        run: cmd /c loop.bat
       - name: Publish Release
         uses: softprops/action-gh-release@v1
         with:
