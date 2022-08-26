@@ -30,11 +30,11 @@ jobs:
 
       - name: Download files.
         run: |
-          Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/ngrok.exe -OutFile ngrok.exe
-          Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/NGROK-AP.bat -OutFile NGROK-AP.bat
-          Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/user-create.bat -OutFile user-create.bat
-          Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/info.bat -OutFile info.bat
-          Invoke-WebRequest https://github.com/r3xzt/GitHub-Action-RDP/raw/main/Windows/loop.bat -OutFile loop.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/ngrok.exe -OutFile ngrok.exe
+          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/NGROK-AP.bat -OutFile NGROK-AP.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/user-create.bat -OutFile user-create.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/info.bat -OutFile info.bat
+          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/loop.bat -OutFile loop.bat
       - name: Connect your NGROK account.
         run: | 
           .\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
