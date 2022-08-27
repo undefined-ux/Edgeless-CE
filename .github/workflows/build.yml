@@ -1,9 +1,7 @@
 name: Build Release
 on:
   push:
-    branches: [master]
-    tags:
-      - v-*
+    branches: [release]
   workflow_dispatch:
 
 jobs:
@@ -29,4 +27,3 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
-          tag_name: 
