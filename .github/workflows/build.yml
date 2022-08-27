@@ -9,10 +9,17 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-      - name: windows 11 22000.739
+      - name: Setup Python
+        uses: actions/setup-python@v2.2.2
+        with:
+          python-version: 3.8
+      - name: Install Python Package
+        run: |
+          pip install psutil
+      - name: Download windows 11 22000.739 Image
         run: |
           aria2c "https://onemanager-one-virid.vercel.app/main/os/zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso"
-      - name: MountWindowsImageAndBuild
+      - name: Mount Windows Image and Build
         shell: pwsh
         run: |
           $mountResult = Mount-DiskImage ${{ github.workspace }}\zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso -PassThru
@@ -20,9 +27,11 @@ jobs:
           ${{ github.workspace }}\Wimbuilder2\WimBuilder.cmd --build --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
       - name: Wait Build Finished
         shell: cmd
-        run: ${{ github.workspace }}\waitWimbuilderEnd.bat
+        run: |
+          python ${{ github.workspace }}\waitWimbuilderEnd.py
       - name: Publish Release
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
           tag_name: ${{github.ref_name}}
+          name: ${{github.ref_name}}
