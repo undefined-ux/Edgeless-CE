@@ -9,8 +9,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          path: ./Wimbuilder2/AppData/Projects
       - name: windows 11 22000.739
         run: |
           aria2c "https://onemanager-one-virid.vercel.app/main/os/zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso"
@@ -19,7 +17,7 @@ jobs:
         run: |
           $mountResult = Mount-DiskImage ${{ github.workspace }}\zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso -PassThru
           $driveLetter = ($mountResult | Get-Volume).DriveLetter
-          ${{ github.workspace }}\Wimbuilder2\WimBuilder.cmd --build-with-log --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
+          ${{ github.workspace }}\Wimbuilder2\WimBuilder.cmd --build --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
       - name: Wait Build Finished
         shell: cmd
         run: ${{ github.workspace }}\waitWimbuilderEnd.bat
