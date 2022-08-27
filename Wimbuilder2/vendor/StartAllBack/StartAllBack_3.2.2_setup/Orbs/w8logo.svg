@@ -1,0 +1,9 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-103.5 -85.5 256 256" enable-background="new -103.5 -85.5 256 256" xml:space="preserve">
+<linearGradient id="win-8_1_" gradientUnits="userSpaceOnUse" x1="-78.4456" y1="-77.1485" x2="160.8416" y2="162.1387">
+	<stop  offset="0" style="stop-color:#0078D0"/>
+	<stop  offset="1" style="stop-color:#0062E0"/>
+</linearGradient>
+<path id="win-8" fill="url(#win-8_1_)" d="M-103.5-52.094L4.626-66.217V35.439H-103.5V-52.094z M-103.5,49.079H4.626v102.118
+	L-103.5,137.074V49.089V49.079z M18.02,35.439V-68.088L152.48-85.5V35.439H18.02z M152.48,49.089V170.5L18.02,153.088V49.089H152.48
+	z"/>
+</svg>
