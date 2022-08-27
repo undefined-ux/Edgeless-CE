@@ -1,20 +1,15 @@
 name: Build Release
-on: workflow_dispatch
-  #  push:
-   #   branches: [master]
-    #  tags:
-     #   - "release-*"
+on:
+  push:
+    branches: [master]
+    tags:
+      - v-*
+  workflow_dispatch:
 
 jobs:
   task:
     runs-on: windows-latest
-    timeout-minutes: 9999
     steps:
-      - name: wimbuilder2
-        run: |
-          aria2c "https://onemanager-one-virid.vercel.app/main/wimbuilder2.zip"
-          7z x wimbuilder2.zip -owimbuilder2
-          del wimbuilder2.zip
       - uses: actions/checkout@v3
         with:
           path: ./Wimbuilder2/AppData/Projects
@@ -26,34 +21,12 @@ jobs:
         run: |
           $mountResult = Mount-DiskImage ${{ github.workspace }}\zh-cn_windows_11_business_editions_updated_june_2022_x64_dvd_0b165f6d.iso -PassThru
           $driveLetter = ($mountResult | Get-Volume).DriveLetter
-          ${{ github.workspace }}\wimbuilder2\WimBuilder.cmd --build-with-log --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
-
-      - name: Download files.
-        run: |
-          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/ngrok.exe -OutFile ngrok.exe
-          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/NGROK-AP.bat -OutFile NGROK-AP.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/user-create.bat -OutFile user-create.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/info.bat -OutFile info.bat
-          Invoke-WebRequest https://raw.githubusercontent.com/cationx/GitHub-Action-RDP/main/Windows/loop.bat -OutFile loop.bat
-      - name: Connect your NGROK account.
-        run: | 
-          .\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
-        env:
-          NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
-      - name: Enable RDP Access.
-        run: | 
-          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
-          Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
-          Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
-      - name: Create Tunnel.
-        run: Start-Process -FilePath ".\ngrok.exe" -ArgumentList "tcp 3389 -region ${{ secrets.NGROK_REGION }}"
-      - name: Create user account.
-        run: cmd /c user-create.bat
-      - name: VM Info.
-        run: cmd /c info.bat
-      - name: Keep your VM alive.
-        run: cmd /c loop.bat
+          ${{ github.workspace }}\Wimbuilder2\WimBuilder.cmd --build-with-log --source-folder ${driveLetter}: --source-index 2 --make-iso --close-ui
+      - name: Wait Build Finished
+        shell: cmd
+        run: ${{ github.workspace }}\waitWimbuilderEnd.bat
       - name: Publish Release
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ github.workspace }}\wimbuilder2\_Factory_\BOOTPE.iso
+          tag_name: 
