@@ -33,5 +33,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: ${{ github.workspace }}\Wimbuilder2\_Factory_\BOOTPE.iso
-          tag_name: ${{github.ref_name}}
-          name: ${{github.ref_name}}
+          tag_name: ${{ github.event.head_commit.message }}
+          name: ${{ github.event.head_commit.message }}
