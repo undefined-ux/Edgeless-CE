@@ -12938,7 +12938,6 @@ x:\windows\system32\mtfserver.dll
 {0002df02-0000-0000-c000-000000000046}
 {001dc1e0-0f8c-4720-98db-39d32a661422}
 {002eb8c6-3d34-4848-9a6d-58e388d55908}
-{0095b496-f121-4256-96a0-09179828cc16}
 {01171f65-249e-4eeb-81bd-03e1b0fa1873}
 {011b3619-fe63-4814-8a84-15a194ce9ce3}
 {011be22d-e453-11d1-945a-00c04fb984f9}
@@ -12963,7 +12962,6 @@ x:\windows\system32\mtfserver.dll
 {0280284d-ab12-4cb7-9b51-7579e6c3796b}
 {0289a7c5-91bf-4547-81ae-fec91a89dec5}
 {02c09db6-f3e3-4c27-970d-17107bf4518e}
-{02c35120-4924-46eb-bc2b-5fb0db060948}
 {02eca72e-27da-40e1-bdb1-4423ce649ad9}
 {0316bbc2-92d9-4e2e-8345-3609c6b5c167}
 {031ee060-67bc-460d-8847-e4a7c5e45a27}
@@ -13022,7 +13020,6 @@ x:\windows\system32\mtfserver.dll
 {06bf8e77-0fec-4bd3-afd6-c949ae21e34b}
 {06c792f8-6212-4f39-bf70-e8c0ac965c23}
 {06dc6740-fd0d-426a-9bf6-20ddbd7d53ce}
-{0709bcee-e071-4cf1-bd15-baec9aa12d75}
 {07369a67-07a6-4608-abea-379491cb7c46}
 {07a774a0-6047-11d1-ba20-006097d2898e}
 {081378d5-ce84-411b-8abf-883840d7b90d}
@@ -13031,13 +13028,11 @@ x:\windows\system32\mtfserver.dll
 {08229782-89c8-4028-bb74-75bb58ef1488}
 {082bc1fc-591a-4a9e-9d90-8ab689f49519}
 {082c78e1-cd8f-4982-beb9-bbfe43a0f09a}
-{0839ca75-2fe4-4608-a1b9-2224e046d6a3}
 {08586f78-3b1f-4cde-9e87-affa015b5de2}
 {087798c4-3c0a-48d4-abc9-ed60912fa139}
 {088e8dfb-2464-4c21-bad2-f0aa6db5d4bc}
 {08dfcef6-4f00-436f-b621-b1585343c2fb}
 {08fc06e4-c6b5-40be-97b0-b80f943c615b}
-{08fedb70-9d27-4bcf-bbb0-99986ae2bcb5}
 {0913accf-b1ab-4eee-a0c7-f4d7c12f4eec}
 {09474572-b2fb-11d1-a1a1-0000f875b132}
 {0955ac62-bf2e-4cba-a2b9-a63f772d46cf}
@@ -13111,7 +13106,6 @@ x:\windows\system32\mtfserver.dll
 {0ea79562-d4f6-47ba-b7f2-1e9b06ba16a4}
 {0eb06e8d-d00a-11da-a46c-0040f4b33241}
 {0ed2f8d5-02b2-48cc-a25a-8b8468e67b45}
-{0eebeaf3-b225-493c-ad14-1dbe8775c8ba}
 {0eef5fbe-18f3-478a-bd28-4899c2e90323}
 {0f3079cc-f843-4c8e-9a5e-4af1e37b4c95}
 {0f3ed1f2-afdd-4b0c-b6d9-229c1bc58a08}
@@ -13121,7 +13115,6 @@ x:\windows\system32\mtfserver.dll
 {0f87369f-a4e5-4cfc-bd3e-73e6154572dd}
 {0f92030a-cbfd-4ab8-a164-ff5985547ff6}
 {0f96e303-ca9a-4ceb-9a1b-a3e7a775e04f}
-{0f9fdb2d-1804-4cde-a2f9-9b380cdacf7a}
 {0fafd998-c8e8-42a1-86d7-7c10c664a415}
 {0fb15084-af41-11ce-bd2b-204c4f4f5020}
 {0fde5092-aa2a-11d1-a7d4-0000f87571e3}
@@ -13154,11 +13147,9 @@ x:\windows\system32\mtfserver.dll
 {122595e5-20a2-47d3-8604-4a613ff6cca7}
 {124e2045-8d63-4c23-b420-bbcd6a0ed61a}
 {126d7983-faa4-49ef-a081-bd4b22453a1e}
-{127b106b-b42e-4cd8-b08a-22b66a1c7877}
 {128509e9-c44e-45dc-95e9-c255b8f466a6}
 {128acdce-4d92-4d16-854f-f40ac7311abb}
 {1293c733-3151-48f5-89de-2457b4ab3fd2}
-{1299cf18-c4f5-4b6a-bb0f-2299f0398e27}
 {12cde14d-5ecf-4c56-8233-120db56647a2}
 {12d51199-0db5-46fe-a120-47a3d7d937cc}
 {12d73610-a1c9-11d3-bc90-00c04f72df9f}
@@ -13220,7 +13211,6 @@ x:\windows\system32\mtfserver.dll
 {17b21a1b-6c59-48e0-a448-6bc9ad2c5bfe}
 {17c82257-654e-4c47-8e23-dca24eaa76a0}
 {17cca47d-dae5-4e4a-ac42-cc54e28f334a}
-{17fb3711-de14-477f-8b81-32a9c11a6938}
 {17fc1a80-140e-4290-a64f-4a29a951a867}
 {17fe9752-0b5a-4665-84cd-569794602f5c}
 {181a38f4-6ce6-4edc-8db0-6e5631963a1e}
@@ -13232,7 +13222,6 @@ x:\windows\system32\mtfserver.dll
 {18f65133-bb77-4c67-8a64-d427be942224}
 {18fbd4bc-16ea-47f2-8ad0-868c1269c79a}
 {19129eac-a717-4bbd-87e0-615e3c939668}
-{191d5a6b-43b9-477a-bb22-656bf91228ab}
 {19204edd-187c-40b7-ada4-79772bd10fb2}
 {193b4137-0480-11d1-97da-00c04fb9618a}
 {195b4d07-3de2-4744-bbf2-d90121ae785b}
@@ -13314,7 +13303,6 @@ x:\windows\system32\mtfserver.dll
 {1ee7337f-85ac-45e2-a23c-37c753209769}
 {1ef94880-01a8-11d2-a90b-00aa00bf3363}
 {1f01f4e9-8b75-4e20-8eb0-e49f17f2be61}
-{1f06f815-7c26-43d1-ba39-3814b4b467c5}
 {1f09b058-f3fd-4a9d-a8ba-a8a05f8fe283}
 {1f1f4e1a-2252-4063-84bb-eee75f8856d5}
 {1f3d8aa5-9ebf-4ee4-85c2-ea40379aede8}
@@ -13371,7 +13359,6 @@ x:\windows\system32\mtfserver.dll
 {22ff30d1-a59e-4580-9190-da3042ceca64}
 {23445657-8a4c-11e5-998d-b4b52fe06611}
 {23571e11-e545-4dd8-a337-b89bf44b10df}
-{235df164-7970-4b68-8453-2cacffdd23c9}
 {23650f94-13b8-4f39-b2c3-817e6564a756}
 {23b77e99-5c2d-482d-a795-62ca3ae5b673}
 {23cc32c8-6654-40ca-aacd-f4712a6cdcaf}
@@ -13398,7 +13385,6 @@ x:\windows\system32\mtfserver.dll
 {25ec352e-72e1-4724-9a28-4ae730072149}
 {25ecf786-a925-4706-a269-eef5ad6899db}
 {25f843f3-1ed6-4b4e-8749-df294c7feb30}
-{26445657-50e1-4c9f-8378-ff028fd26816}
 {265011ae-5481-4f77-a295-abb6ffe8d63e}
 {265b1075-d22b-41eb-bc97-87568f3e6dab}
 {2667745b-5427-42d0-82e5-e432d30786e6}
@@ -13457,10 +13443,8 @@ x:\windows\system32\mtfserver.dll
 {2b1c6f4f-4f0d-490f-8d88-a3eaf66130ac}
 {2b20fe1a-1b2c-4dc5-8595-616b0e182fd1}
 {2b2cad40-19c1-4794-b32d-397e41d5e8a7}
-{2b445657-7159-42a1-84f0-538e82ee5de9}
 {2b8f8a9e-51b6-46db-9d45-ffb33e023823}
 {2bb8b28a-58dc-449c-a89b-daefd0a8933d}
-{2be1981c-ccf9-4d8b-8da2-e217287ad983}
 {2be6c86f-1e02-40c2-9394-e98270c4d4e6}
 {2c012f55-1318-44f4-a235-20c4df918fb3}
 {2c01d35e-79de-45de-9d5f-11923c2d0894}
@@ -13484,7 +13468,6 @@ x:\windows\system32\mtfserver.dll
 {2d709e52-123f-49b5-9cbc-9af5cde28fb9}
 {2da1964a-7232-48bf-9946-d0510557c492}
 {2da6aa7f-8c88-4194-a558-0d36e7fd3e64}
-{2daf8b36-c9b6-44fc-a7d1-993914676a73}
 {2dcd1daf-a110-49c0-bfdb-6fdf557b5fdf}
 {2de967d6-9be7-458a-9b1c-6d3a6ff425f8}
 {2dea658f-54c1-4227-af9b-260ab5fc3543}
@@ -13495,7 +13478,6 @@ x:\windows\system32\mtfserver.dll
 {2e4d68dd-f8f7-4b7f-8bf9-e71b84a97f17}
 {2e73203c-1ff1-491f-b582-691c2f3a1b42}
 {2e8ea1e5-f406-46f5-af10-661fd6539f28}
-{2ec4c88a-9a75-4c36-a07e-419cb0d78b8e}
 {2f29854d-d87f-4b47-8bf8-0c25aeb83fb0}
 {2f5e64e3-0b46-4daf-aea6-721994e5ac8b}
 {2f6ce85c-f9ee-43ca-90c7-8a9bd53a2467}
@@ -13517,7 +13499,6 @@ x:\windows\system32\mtfserver.dll
 {3050f6cd-98b5-11cf-bb82-00aa00bdce0b}
 {3050f6d4-98b5-11cf-bb82-00aa00bdce0b}
 {3050f819-98b5-11cf-bb82-00aa00bdce0b}
-{30562646-f7b5-4a62-8ced-6f30a70587c5}
 {30655864-f8cd-45f9-b7d6-6721acb69c5e}
 {308f826d-88e4-4323-9ad0-51c006148211}
 {30b33640-5250-4328-92c5-a1618e406a3a}
@@ -13558,6 +13539,7 @@ x:\windows\system32\mtfserver.dll
 {34dea897-7365-4f60-ba26-53da4b89226d}
 {34e5efee-eb08-4714-878a-11bbcbfc592b}
 {34e6abfe-e9f4-4ddf-895a-7350e198f26e}
+{34e72398-ab74-43da-8355-7f60d1be3f73}
 {351f7c7a-6186-405e-91a8-32df82f437c0}
 {3529b1d2-313a-4202-bd3e-5996b7e18a10}
 {352ec2b7-8b9a-11d1-b8ae-006008059382}
@@ -13580,7 +13562,6 @@ x:\windows\system32\mtfserver.dll
 {371ccb71-d045-45c5-9952-bb07b1711b0b}
 {376666c8-61cf-4152-8398-7015ffe165ee}
 {378eab97-efd6-4ed5-9ad9-e64a6aa1e6fa}
-{37903486-85ee-4733-aefc-8c4496f19de4}
 {37a40edb-ca54-4256-8549-bcd6601e45dc}
 {37a61c8b-7f8e-4d08-b12b-248d73e9ab4f}
 {37b0353c-a4c8-11d2-b634-00c04f79498e}
@@ -13608,7 +13589,6 @@ x:\windows\system32\mtfserver.dll
 {398d1a2a-a0eb-4c2e-bbf9-671ef93cc6ee}
 {39f8d76b-0928-11d1-97df-00c04fb9618a}
 {3a444244-dc96-4424-8408-8a73fa052fd3}
-{3a445657-23e2-4e1e-82ab-d1836874c536}
 {3a582f0c-9a06-43c3-bb82-7ceeed538df7}
 {3a59a18b-f03c-48cb-8aa7-181d35291fd7}
 {3a614b00-fb18-46f3-950e-682a46a48b9f}
@@ -13665,7 +13645,6 @@ x:\windows\system32\mtfserver.dll
 {3f4f9726-2972-4dd4-ab7c-d119f36803b0}
 {3f9ff9ab-ac3e-40bb-bbc9-27b648ad1fb2}
 {3fa82dd5-dda4-4025-adfa-de0dce2c1f56}
-{3fb11ad5-928d-4534-b217-2ffbfdbb6395}
 {3ff292b6-b204-11cf-8d23-00aa005ffe58}
 {3ffb3b8c-eb99-472b-8902-e1c1b05f07cf}
 {4000c97b-791b-425f-9ad6-5046210503b1}
@@ -13685,9 +13664,7 @@ x:\windows\system32\mtfserver.dll
 {40f59ce8-4044-45ba-9d52-69d52efeadce}
 {410381db-af42-11d1-8f10-00c04fc2c17b}
 {413a30f0-f269-42a0-99d9-3792ff29dab1}
-{41445657-4118-4689-b300-e7f1eb61ff7b}
 {41457294-644c-4298-a28a-bd69f2c0cf3b}
-{414ac301-8d95-43c8-99d0-3f25e4076945}
 {417976b7-917d-4f1e-8f14-c18fccb0b3a8}
 {418008f3-cf67-4668-9628-10dc52be1d08}
 {418201e2-6c9f-42cc-9061-586d9f46ac9e}
@@ -13976,7 +13953,6 @@ x:\windows\system32\mtfserver.dll
 {59fd5fd6-896a-425b-b7b6-e7a0318fc127}
 {5a4b3263-4381-4499-bf2f-c98d168e3ee2}
 {5a4ed3bd-2f40-44b4-93da-2b5ecc197b26}
-{5a57485b-151f-4868-945b-fbb95b574075}
 {5a6efd3c-a6b5-44ee-873f-9b25bdbe045b}
 {5a823d1e-8ddc-44dd-8ab4-f9d32c7fbb05}
 {5aa730d8-0f13-4ad6-b6c6-1ea85218c9a0}
@@ -14007,7 +13983,6 @@ x:\windows\system32\mtfserver.dll
 {5d1026ee-3f2e-4ccb-a83d-cefb7ac22a71}
 {5d2f9804-2614-47e5-9b39-c9f74f51fe98}
 {5d429af6-d20f-4363-b378-c4aa2fa685ee}
-{5d43f9ba-ee77-485b-acfc-4ad067daf7bd}
 {5d6179c8-17ec-11d1-9aa9-00c04fd8fe93}
 {5d6179d2-17ec-11d1-9aa9-00c04fd8fe93}
 {5d8e73f7-4989-4ac8-8a98-39ba0d325302}
@@ -14148,14 +14123,11 @@ x:\windows\system32\mtfserver.dll
 {69375d35-b310-40fd-a7dc-9548e1dbc3b5}
 {69546697-5b53-43c5-8391-9e227b54957b}
 {698f7d05-37f0-4902-8a63-aef7d44dc7fc}
-{69a0bc0e-7b4e-4ee4-83b5-6c5ce096daae}
 {69a25c12-1811-11d2-a52b-0000f803a951}
 {69a25c14-1811-11d2-a52b-0000f803a951}
-{69b1a7d7-c09e-40e9-a1df-688007a2d9e4}
 {69f14e67-6183-4854-a16c-74273814f10c}
 {69f9cb25-25e2-4be1-ab8f-07aa7cb535e8}
 {6a086e41-0c5b-4087-aebf-a3868c14a8cb}
-{6a2af23e-b6d9-4a72-938d-9bffc96be71e}
 {6a30ad66-de02-407c-8ea3-b1c03e1faa87}
 {6a498709-e00b-4c45-a018-8f9e4081ae40}
 {6a49950e-ce8a-4ef7-88b4-9d112366511c}
@@ -14220,7 +14192,6 @@ x:\windows\system32\mtfserver.dll
 {6bc098ac-0ce6-11d1-baae-00c04fc2e20d}
 {6bc098ad-0ce6-11d1-baae-00c04fc2e20d}
 {6bd6aeca-afb0-45b7-bac4-f292ec0f3f41}
-{6bdadf65-eb94-419b-907c-0ba9dda7f0df}
 {6bf52a52-394a-11d3-b153-00c04f79faa6}
 {6bfcacdc-a6a6-4343-9cf6-83a83727367b}
 {6c337b26-3e38-4f98-813b-fba18bab64f5}
@@ -14250,10 +14221,8 @@ x:\windows\system32\mtfserver.dll
 {6edd6d74-c007-4e75-b76a-e5740995e24c}
 {6ef07f29-f9b8-4da4-b59e-13dea060ad60}
 {6f54557f-7d6e-4fad-8aa3-7907eb385a2f}
-{6f58f65f-ec0e-4aca-99fe-fc5a1a25e4be}
 {6f92a312-7524-407a-9555-6af7d22648ee}
 {6fbd703b-fece-4348-b93d-6e92ac097f17}
-{6ffa842b-fd90-4a0e-9315-21c52b2457aa}
 {7013943a-e2ec-11d2-a086-00c04f8ef9b5}
 {70351e05-d2bd-4817-9ffd-a6d4a9a90282}
 {703574d6-aa1b-4fbf-a938-9a59c89343fa}
@@ -14291,7 +14260,6 @@ x:\windows\system32\mtfserver.dll
 {74620884-155f-4b72-a4f0-0faddbc0721e}
 {74628299-57ec-4f12-ba1c-08b477bf447a}
 {7469ae5e-1ca1-4181-970c-bdfd8eaa2c4f}
-{7473b52d-97d9-41bb-ae03-2d3d51eb42b8}
 {74761821-e040-423d-9399-35bba3ecfff5}
 {7478ef61-8c46-11d1-8d99-00a0c913cad4}
 {7478ef65-8c46-11d1-8d99-00a0c913cad4}
@@ -14369,7 +14337,6 @@ x:\windows\system32\mtfserver.dll
 {7bafb3b1-d8f4-4279-9253-27da423108de}
 {7c07e0d0-4418-11d2-9212-00c04fbbbfb3}
 {7c3269cc-95b0-41c7-bcd7-f96640883669}
-{7c443a25-0ece-4543-b776-b3bbcf77f007}
 {7c50e1e9-db15-4410-89c5-d27f4b727368}
 {7c606a3f-8aa8-4e36-92d6-2b6afec0b732}
 {7c83c056-1d0d-4c8e-a6b0-89e79c213559}
@@ -14495,7 +14462,6 @@ x:\windows\system32\mtfserver.dll
 {88004a5c-ceac-41b9-a7a8-d5e166d32acf}
 {882bc1e4-c79e-475d-8cc7-cc8d112fdb17}
 {8839a1ba-6d01-4525-98eb-723c628320f0}
-{88445657-4a4e-4949-8fed-72b831c7c662}
 {884e2000-217d-11da-b2a4-000e7bbb2b09}
 {884e2001-217d-11da-b2a4-000e7bbb2b09}
 {884e2002-217d-11da-b2a4-000e7bbb2b09}
@@ -14577,7 +14543,6 @@ x:\windows\system32\mtfserver.dll
 {88fc85d3-7090-4f53-8f7a-eb0268162788}
 {890f18bf-7246-4827-bc78-387c6980182a}
 {896c2b1d-3586-4fa5-b419-41f4a6d38cf1}
-{898f8bc2-c6e3-4cd7-b04a-72e5b490b4c6}
 {89917b7c-a1a6-11df-8bf6-18a90531a85a}
 {89a0cba3-f995-48ba-a751-f27d64bee9e7}
 {89aa9bf2-38ee-4444-8ae5-8ca90aac64f6}
@@ -14666,7 +14631,6 @@ x:\windows\system32\mtfserver.dll
 {90ba30dd-785c-4186-9f44-b7d2ea994ea5}
 {90bd963c-925a-4628-b905-fa122a1890a6}
 {90be9587-37b7-477c-81a7-ba7c5c40ff81}
-{90c69bbb-7f1d-4833-af4e-87a7e5c4288b}
 {912a4cba-0401-4631-91cf-5ddd3e3d6829}
 {912d9d84-dc73-48fa-8bd8-5315de4b8fa8}
 {9173e885-d54f-464a-8d04-86440a1246d3}
@@ -14679,7 +14643,6 @@ x:\windows\system32\mtfserver.dll
 {91f39028-217f-11da-b2a4-000e7bbb2b09}
 {91f39029-217f-11da-b2a4-000e7bbb2b09}
 {91f3902a-217f-11da-b2a4-000e7bbb2b09}
-{920f80d3-5ef0-40dd-9a5e-eab11fcdf854}
 {92187326-72b4-11d0-a1ac-0000f8026977}
 {92192fd8-c1cb-434b-a8e8-b7f3ac424ee4}
 {92337a8c-e11d-11d0-be48-00c04fc30df6}
@@ -14699,7 +14662,6 @@ x:\windows\system32\mtfserver.dll
 {92ed88bf-879e-448f-b6b6-a385bceb846d}
 {9305969b-f45f-47e5-a954-6ea879e874cc}
 {93443eb9-3f77-4dbe-84a2-d8467c1dd847}
-{93445657-12ca-4b80-ab18-9996d7293ec6}
 {9357ffb2-0013-4c8e-9501-8e4e26f647d5}
 {937847e7-c78a-4834-9ce8-5f3ec99bd604}
 {93aad2a0-036a-4b11-a078-da8776b38139}
@@ -14758,7 +14720,6 @@ x:\windows\system32\mtfserver.dll
 {98859a6c-02f2-43fc-adb0-ce6d10f1a1aa}
 {9885aef2-bd9f-41e0-b15e-b3141395e803}
 {9887a40f-b86c-4531-904b-4c70a3ab6d1b}
-{989f13ee-b25b-4fab-9aed-c4336c8ccf0c}
 {98a1b01e-e363-46e9-a68f-c6078daabb8c}
 {98c97bd2-e32b-4ad8-a528-95fd8b16bd42}
 {98d9ca81-452b-4a98-96a3-7d510c7c4f9f}
@@ -14778,7 +14739,6 @@ x:\windows\system32\mtfserver.dll
 {9a31d292-655f-48f7-b5ad-553358bcd0c9}
 {9a3e1311-23f8-42dc-815f-ddbc763d50bb}
 {9a4948d9-13fc-4fac-b60a-fba6ee0fb11c}
-{9a4b1918-0a2f-4422-89dd-35b3f455999c}
 {9a4b942c-c16d-44d2-bdaa-1bd772a4050b}
 {9a5ea990-3034-4d6f-9128-01f3c61022bc}
 {9a7c3fc6-8c9e-40a8-8cd9-0f3715483825}
@@ -14837,7 +14797,6 @@ x:\windows\system32\mtfserver.dll
 {9f37f39c-6f49-11d1-8c18-00c04fd8d503}
 {9f38cf19-b7a6-452a-bf0b-383f3c1d50c2}
 {9f50e8b1-9530-4ddc-825e-1af81d47aed6}
-{9f75fdc4-0aba-4866-88a9-75ebb9e7d584}
 {9f821051-83c5-4816-bb38-5f5fa3b65ddb}
 {9fb45d27-dfe3-4383-b117-ab631787649a}
 {9ff13758-469b-45a8-8cc7-72182bd7e9ba}
@@ -14883,7 +14842,6 @@ x:\windows\system32\mtfserver.dll
 {a2e3074e-6c3d-11d3-b653-00c04f79498e}
 {a2e30750-6c3d-11d3-b653-00c04f79498e}
 {a2e6dda0-06ef-4df3-b7bd-5aa224bb06e8}
-{a3037d66-c043-4f54-91a0-2cdb642e7718}
 {a31ad6c2-ff4c-43d4-8e90-7101023096f9}
 {a3367904-52a3-4a11-bf5b-1ab36ef51d1f}
 {a35c5b62-6032-4caf-bb23-f0556bff94ff}
@@ -14898,7 +14856,6 @@ x:\windows\system32\mtfserver.dll
 {a405dda4-a05a-46be-b481-526ad2e0c791}
 {a4109fa5-7512-4338-8376-81f6d38ada41}
 {a43139b3-bdf5-4497-9dcf-6c7aadc1a5d0}
-{a4445657-bcb6-476e-8336-3a2acd96e299}
 {a45aec2b-549e-405f-af3e-c6b03c4fdfbf}
 {a45e47ba-0210-4fdb-be5f-99795aaa41b7}
 {a463fcb9-6b1c-4e0d-a80b-a2ca7999e25d}
@@ -14911,8 +14868,6 @@ x:\windows\system32\mtfserver.dll
 {a4ddca2b-e73c-40c5-83b1-9f40269d0b0d}
 {a4f0da76-0f57-495f-bb5d-9f67a4745cdf}
 {a4f2a5c9-979a-4ec6-851f-341f15d3f67d}
-{a4fbcbc6-4be5-4c3d-8ab5-8b873357a23e}
-{a508e5fe-7d8f-4006-ae92-a44e69f87da3}
 {a530d54a-dba0-4b17-9f99-51a7a2cc17ca}
 {a54a8599-2fc7-4cea-9c07-cdb72728b564}
 {a558c6a5-b42b-4c98-b610-bf9559143139}
@@ -15030,7 +14985,6 @@ x:\windows\system32\mtfserver.dll
 {af56838e-3362-472e-997e-c3370b486802}
 {af5c828c-66a3-35d4-9401-5ba1d7aa7752}
 {af8fa762-6286-46f6-9fa7-7d63b655c22f}
-{af9d2278-060f-4a17-99a9-5044f7f843a8}
 {afc00d5e-be1d-44a2-b875-7f7bdfab1a18}
 {afd7f94b-1627-436c-80c8-b464aa21cad3}
 {afdb1f70-2a4c-11d2-9039-00c04f8eeb3e}
@@ -15039,6 +14993,7 @@ x:\windows\system32\mtfserver.dll
 {b020b123-89b9-46c6-8509-a8bf70447fea}
 {b0271158-70d2-4c5b-9f94-76f549d90fdf}
 {b02a85bd-7898-4435-8e54-b300b866c385}
+{b02e0336-9e13-4e74-8a0a-7f04a273ade8}
 {b03b16c7-35a7-4a55-bef1-8876e1ce2f45}
 {b03c2205-f02e-4d77-80df-e1747afdd39c}
 {b03c7b74-40a6-4ed9-a900-a5873c15e8f1}
@@ -15067,7 +15022,6 @@ x:\windows\system32\mtfserver.dll
 {b2236232-14ed-49c6-ab56-c1cf2e2d0c5d}
 {b22c3339-87f3-4059-a0c5-037aa9707eaf}
 {b2420e45-60bc-4466-ad5c-369eb092bef8}
-{b2445657-090d-11e4-aeda-b4b52fe06611}
 {b2a7fd52-301f-4348-b93a-638c6de49229}
 {b2bcff59-a757-4b0b-a1bc-ea69981da69e}
 {b2cabfe4-fe04-42b1-a5df-08d483d4d100}
@@ -15101,7 +15055,6 @@ x:\windows\system32\mtfserver.dll
 {b5965acc-842d-4abe-a618-9292bb3ee666}
 {b5a123c0-3893-4f1c-8599-00f4b82f2c99}
 {b5cdee74-7392-4954-9aca-8a1338ec04c1}
-{b5f8fb3b-393f-4f7c-84cb-504924c2705a}
 {b601d247-5aca-4b00-b2f9-8df1e56b4751}
 {b60d6653-fde4-4045-b5fd-f47b1bd45ca0}
 {b6390db1-4c44-4ba4-ba51-bbf4bed47c37}
@@ -15125,7 +15078,6 @@ x:\windows\system32\mtfserver.dll
 {b7bffb5a-efa8-4d8c-bbde-c8d5faaf54a1}
 {b8069d2e-4a49-475a-8fd2-533992303c2c}
 {b832674a-f36f-4780-ae4c-1566aae3a4f4}
-{b8445657-c149-4f95-8cff-49d39b615f27}
 {b8558612-df5e-4f95-bb81-8e910b327fb2}
 {b855b632-7dfb-4826-a172-3600ebd86948}
 {b862bc49-e7e7-427e-868a-de0f7a75bc07}
@@ -15149,7 +15101,6 @@ x:\windows\system32\mtfserver.dll
 {ba126ae2-2166-11d1-b1d0-00805fc1270e}
 {ba4eac04-afce-441a-a4f0-c4a97545425a}
 {ba69f7e1-c6d8-4fb1-924a-a5308b99391c}
-{ba6ee7d8-190d-423a-93cc-1270e6599195}
 {ba9bb214-d930-4206-8f8f-bf0f1eaa4a6b}
 {bab56818-0360-4d47-bd5f-8f0683737da8}
 {bacf5c8a-a3c7-11d1-a760-00c04fb9603f}
@@ -15234,7 +15185,6 @@ x:\windows\system32\mtfserver.dll
 {c0aa9d93-2ef5-47fb-960c-f90fc644b48e}
 {c0b35746-ebf5-11d8-bbe9-505054503030}
 {c0b3c446-3032-4016-926f-9bae48bebfbe}
-{c0b9675c-a5e1-408c-b5df-f3bba520827c}
 {c0cd7d12-31fc-4bbc-b363-7322ee3e1879}
 {c0e13e61-0cc6-11d1-bbb6-0060978b2ae6}
 {c10e23a2-bff0-4113-bce8-c91be754e281}
@@ -15315,7 +15265,6 @@ x:\windows\system32\mtfserver.dll
 {c6445657-1fb6-11e3-a6e4-18a905c16311}
 {c64501f6-e6e6-451f-a150-25d0839bc510}
 {c6465c2c-7943-452a-9a57-f61db6b452e9}
-{c658e5bd-817b-41c8-8fb6-5b2b386a40ea}
 {c662d912-e4d6-44a3-89a0-20550514951d}
 {c6a4cf44-5069-4cd0-bd40-4437e4be57ec}
 {c6b14b32-76aa-4a86-a7ac-5c79aaf58da7}
@@ -15387,7 +15336,6 @@ x:\windows\system32\mtfserver.dll
 {cc776e57-e6c5-43d5-ae94-534923129147}
 {cc829a2f-3365-463f-af13-81dbb6f3a555}
 {ccae9d9b-e430-4454-8949-666d9f739994}
-{ccb1d8cb-d39f-41c9-b793-0196214bdc4e}
 {ccb38336-0b46-4153-bf74-6ea9a8c07edf}
 {ccb4ec60-b9dc-11d1-ac80-00a0c9034873}
 {ccba37fc-982b-433b-8ac2-455e616a8559}
@@ -15452,7 +15400,6 @@ x:\windows\system32\mtfserver.dll
 {ce0e0be8-cf56-4577-9577-34cc96ac087c}
 {ce23534b-56d8-4978-86a2-7ee570640468}
 {ce2bb7dc-73f3-482f-90b6-5bfaa04d0157}
-{ce2f5d02-a575-4f4c-ad73-34baf96f8512}
 {ce47e952-2ade-45b9-8f64-f829bb4baa34}
 {ce510457-55ec-4f86-91be-323bc91ac34f}
 {cecad1b6-9620-4295-93c6-85b305d82ae4}
@@ -15506,7 +15453,6 @@ x:\windows\system32\mtfserver.dll
 {d25e0260-aab7-48cb-a192-4d73d2fd375f}
 {d26165cd-5994-4614-976d-cb45750c5f80}
 {d26aa4a5-92ad-48db-8d59-95ef0dce6939}
-{d26c7a0a-83a0-48d3-9174-529db999b4a4}
 {d26de5c1-c061-43f7-9c40-7517526cf1c1}
 {d277df13-eb33-47e1-a3b9-0ac04b1f24f4}
 {d284acc0-ceed-46cc-9484-38709e695510}
@@ -15574,7 +15520,6 @@ x:\windows\system32\mtfserver.dll
 {d83a980e-88ae-45f3-90e2-8e665d567f84}
 {d83e8cbe-841d-4397-b6e4-f64f2e3ab469}
 {d8435933-b158-4755-b669-5e00ceeee34d}
-{d8ac8159-abaa-4016-bf74-de98c5917269}
 {d8bd090d-3f39-45fd-b29a-7fc62c2e59c3}
 {d8c2122b-6ce0-433c-99a1-65f03037979d}
 {d8c45162-25c5-4b77-a3d0-17676b63b413}
@@ -15582,7 +15527,6 @@ x:\windows\system32\mtfserver.dll
 {d8f0f5e7-11c5-4e95-bbff-0f110c0221c4}
 {d93ed569-3b3e-4bff-8355-3c44f6a52bb5}
 {d9bb4cee-b87a-47f1-ac92-b08d9c7813fc}
-{d9efb25b-80e9-4832-bad8-ab2186bc95b0}
 {d9f6ee60-58c9-458b-88e1-2f908fd7f87c}
 {da13dc3d-3f88-4a85-a89e-5735588a65e5}
 {da1413f9-03db-4fbd-a49f-ef0b46e46118}
@@ -15591,7 +15535,6 @@ x:\windows\system32\mtfserver.dll
 {da216253-d503-497c-b068-6391030a0d1e}
 {da3bc7d8-c8f3-4169-aa71-d65c40aa7129}
 {da5a95c1-cb6b-4798-88a9-473c087d9464}
-{da7e4657-8fa8-4b76-9a14-9bf380fa3738}
 {da93e903-c843-11d2-a084-00c04f8ef9b5}
 {dab7ccb2-ec94-4c7e-ab52-826d6acd5249}
 {dac9f469-0c67-4643-9258-87ec128c5941}
@@ -15610,7 +15553,6 @@ x:\windows\system32\mtfserver.dll
 {dc79a5c8-ccad-4698-9034-c4c8068011c5}
 {dc7a02cd-2e47-406c-ba5a-b08ec00c4238}
 {dca55752-e6d5-4080-8e35-a21546da8295}
-{dcb00c01-570f-4a9b-8d69-199fdba5723b}
 {dcbd6fa8-032f-11d3-b5b1-00c04fc324a1}
 {dcc42fb9-f88d-43c2-b874-727df0f75586}
 {dccc0bed-6066-11d1-8c13-00c04fd8d503}
@@ -15628,7 +15570,6 @@ x:\windows\system32\mtfserver.dll
 {dde5783a-88b9-11d2-84ad-00c04fa31a86}
 {de4874d1-feee-11d1-a0b0-00c04fa31a86}
 {de4874d2-feee-11d1-a0b0-00c04fa31a86}
-{de50c7bb-faa7-4a7f-ba47-bf0efcfe433d}
 {de54af92-ead8-4a7e-88ab-135b6e1a3a23}
 {de5e0969-1b70-48fc-8af9-74931e995953}
 {de661907-527d-4d6a-b6a6-ebc7f88d9b95}
@@ -15717,7 +15658,6 @@ x:\windows\system32\mtfserver.dll
 {e54e4714-22ae-40c5-bb24-f839845c7c98}
 {e565caf2-2b8d-4499-9148-7ebad978d4ef}
 {e5899c7c-0fc7-499e-a262-174fd692dc9f}
-{e593941a-f61c-49c3-85f1-d00ebf0d4eb2}
 {e5b35059-a1be-4977-9bee-5c44226340f7}
 {e5b5b938-52a0-4b37-8659-24eb5165b9a0}
 {e5b8e079-ee6d-4e33-a438-c87f2e959254}
@@ -15892,7 +15832,6 @@ x:\windows\system32\mtfserver.dll
 {f618c514-dfb8-11d1-a2cf-00805fc79235}
 {f62d062c-4732-44d2-bd62-124b8ae1657c}
 {f65817c8-dd85-4136-89f0-b9d12939f2c4}
-{f6a1ca0f-af39-4ee1-b637-f965cbde1e3e}
 {f6b13ba7-d626-45e5-82c5-26e596114dc0}
 {f6bec032-233e-4b58-bee9-de13942bf136}
 {f6efeabd-3370-4aa0-a4fd-88badc3b1a39}
@@ -15963,7 +15902,6 @@ x:\windows\system32\mtfserver.dll
 {fcf7a6f2-3300-4386-9a4f-0dd4e3226507}
 {fd209e2e-813b-41c0-8646-4c3e9c917511}
 {fd215a13-a26a-44ff-ba3a-9109f278e28f}
-{fd30033d-c508-491e-ae43-0075e46ded83}
 {fd30583b-c085-4b28-9d77-0185c987cc13}
 {fd351ea1-4173-4af4-821d-80d4ae979048}
 {fd3577c4-b2b2-11e5-cb1e-848f2ee78d31}
@@ -15976,7 +15914,6 @@ x:\windows\system32\mtfserver.dll
 {fda74d11-c4a6-4577-9f73-d7ca8586e10c}
 {fdb00e52-a214-4aa1-8fba-4357bb0072ec}
 {fdb3c379-7d69-4d39-b975-a621b00007be}
-{fdd10506-9ae7-4c7d-a407-c109ddea1845}
 {fdd384cc-78c6-4e6d-8694-1dacbee57f96}
 {fe081f7f-67dc-4f4e-a74a-d6555cdc8efb}
 {fe0bfe76-18b7-4ea4-a9ca-7277eef48747}
@@ -15997,7 +15934,6 @@ x:\windows\system32\mtfserver.dll
 {ff2f95a4-c6a1-4b48-bc87-8709250e0d03}
 {ff302bd3-3dc6-4680-9384-621a7ff574f4}
 {ff3ae31d-55b0-4945-bde9-622abb334c1a}
-{ff51d680-9190-4b6c-87da-0062abbbff2e}
 {ff5265e8-6d8b-4bd4-a52d-8d99008e04c8}
 {ff679da1-8ff2-4474-9c9e-52bbd409b557}
 {ff806d42-727c-4663-a497-a898fae3c637}
@@ -16005,7 +15941,6 @@ x:\windows\system32\mtfserver.dll
 {ff8a71c2-7eb8-418b-950d-3b49f43f024f}
 {ff99e1c1-7f9a-4c83-8a57-305992edd07b}
 {ffcece86-332f-49b4-b9ee-7fecefad3e10}
-{ffe8c349-2bb1-411f-93ce-0364c5f9fd9f}
 WinSxsManifests:
 amd64_microsoft-windows-a..core-base.resources_31bf3856ad364e35_en-us_c06f1238f89bdd18
 amd64_microsoft-windows-blb-engine-main_31bf3856ad364e35_none_df29c16e8502fa3c
@@ -25323,11 +25258,6 @@ windows.cortana.speechlanguagemanager
 windows.cortana.systemcommands
 windows.cortana.taskbarnotificationmanager
 windows.cortana.visionhelper
-windows.data.html.htmlutilities
-windows.data.json.jsonarray
-windows.data.json.jsonerror
-windows.data.json.jsonobject
-windows.data.json.jsonvalue
 windows.data.pdf.internal.pdfcomponent
 windows.data.pdf.internal.pdfcontrol
 windows.data.pdf.internal.pdfstreamwrapper
@@ -26291,9 +26221,14 @@ windows.networking.backgroundtransfer.contentprefetcher
 windows.networking.backgroundtransfer.internal.backgroundtransfertask
 windows.networking.backgroundtransfer.internal.networkchangetask
 windows.networking.backgroundtransfer.internal.winvaultschemacreator
+windows.networking.connectivity.cellularapncontext
+windows.networking.connectivity.connectionprofilefilter
+windows.networking.connectivity.connectionsession
+windows.networking.connectivity.connectivitymanager
+windows.networking.connectivity.networkinformation
+windows.networking.connectivity.networkinformationprivate
+windows.networking.connectivity.routepolicy
 windows.networking.contentprefetcher.internal.contentprefetchertask
-windows.networking.endpointpair
-windows.networking.hostname
 windows.networking.networkoperators.esimmanager
 windows.networking.networkoperators.hotspotauthenticationcontext
 windows.networking.networkoperators.knowncsimfilepaths
@@ -26580,7 +26515,6 @@ windows.system.profile.systemmanufacturers.smbiosinformation
 windows.system.profile.systemmanufacturers.systemsupportinfo
 windows.system.profile.systemsetupinfo
 windows.system.profile.windowsintegritypolicy
-windows.system.remotedesktop.input.remotetextconnection
 windows.system.remotelauncher
 windows.system.remotelauncheroptions
 windows.system.remotesystems.knownremotesystemcapabilities
@@ -26654,24 +26588,7 @@ windows.ui.input.spatial.spatialgesturerecognizer
 windows.ui.input.spatial.spatialinteractionmanager
 windows.ui.input.spatial.spatialpointerpose
 windows.ui.internal.input.expressiveinput.expextensionmanager
-windows.ui.internal.input.eyecontrolapp
-windows.ui.internal.input.eyecontrolui
-windows.ui.internal.text.core.coreinputviewmanager
-windows.ui.internal.text.core.corekeyboardclient
-windows.ui.internal.text.core.corekeyboardinputprofile
-windows.ui.internal.text.core.corekeyboardinputprofilemanager
-windows.ui.internal.text.core.corekeyboardmanager
-windows.ui.internal.text.core.coretexteditbuffer
-windows.ui.internal.text.core.coretexteditviewjunction
-windows.ui.internal.text.core.coretextkeyeventlistener
-windows.ui.internal.text.core.coretextkeyinjector
-windows.ui.internal.text.core.coretextsysteminputprocessor
 windows.ui.internal.text.core.gipfactory
-windows.ui.internal.text.hotkeyclient
-windows.ui.internal.text.remote.remotetextappintegration
-windows.ui.internal.text.shell.emojisearchdatasource
-windows.ui.internal.text.shell.hittargetlanguagemodel
-windows.ui.internal.text.shell.hittargettouchmodel
 windows.ui.notifications.adaptivenotificationtext
 windows.ui.notifications.badgenotification
 windows.ui.notifications.badgeupdatemanager
@@ -26698,11 +26615,6 @@ windows.ui.shell.adaptivecardbuilder
 windows.ui.shell.taskbarmanager
 windows.ui.startscreen.secondarytile
 windows.ui.startscreen.startscreenmanager
-windows.ui.text.core.coretextservicesconstants
-windows.ui.text.core.coretextservicesmanager
-windows.ui.text.core.coretexttextformat
-windows.ui.viewmanagement.core.coreframeworkinputview
-windows.ui.viewmanagement.core.coreinputview
 windows.ui.viewmanagement.core.uisettingscontroller
 windows.ui.webui.webuiapplication
 windows.ui.webui.webuibackgroundtaskinstance
@@ -26816,7 +26728,6 @@ windows.ui.xaml.media.animation.navigationthemetransition
 windows.ui.xaml.media.animation.slidenavigationtransitioninfo
 windows.ui.xaml.media.animation.suppressnavigationtransitioninfo
 windows.update.updatemanager
-windows.web.atompub.atompubclient
 windows.web.http.diagnostics.httpdiagnosticprovider
 windows.web.http.filters.httpbaseprotocolfilter
 windows.web.http.headers.httpchallengeheadervalue
@@ -26848,19 +26759,6 @@ windows.web.http.httprequestmessage
 windows.web.http.httpresponsemessage
 windows.web.http.httpstreamcontent
 windows.web.http.httpstringcontent
-windows.web.syndication.syndicationattribute
-windows.web.syndication.syndicationcategory
-windows.web.syndication.syndicationclient
-windows.web.syndication.syndicationcontent
-windows.web.syndication.syndicationerror
-windows.web.syndication.syndicationfeed
-windows.web.syndication.syndicationgenerator
-windows.web.syndication.syndicationitem
-windows.web.syndication.syndicationlink
-windows.web.syndication.syndicationnode
-windows.web.syndication.syndicationperson
-windows.web.syndication.syndicationtext
-windows.web.weberror
 windowsinternal.applicationmodel.calls.applauncher
 windowsinternal.applicationmodel.calls.incomingcalltoast
 windowsinternal.applicationmodel.calls.serviceuitoast
@@ -33667,11 +33565,6 @@ windows.applicationmodel.wallet.walletmanager
 windows.applicationmodel.wallet.walletrelevantlocation
 windows.applicationmodel.wallet.wallettransaction
 windows.applicationmodel.wallet.walletverb
-windows.data.html.htmlutilities
-windows.data.json.jsonarray
-windows.data.json.jsonerror
-windows.data.json.jsonobject
-windows.data.json.jsonvalue
 windows.data.pdf.internal.pdfcomponent
 windows.data.pdf.internal.pdfcontrol
 windows.data.pdf.internal.pdfstreamwrapper
@@ -34504,8 +34397,6 @@ windows.networking.connectivity.connectivitymanager
 windows.networking.connectivity.networkinformation
 windows.networking.connectivity.networkinformationprivate
 windows.networking.connectivity.routepolicy
-windows.networking.endpointpair
-windows.networking.hostname
 windows.networking.networkoperators.esimmanager
 windows.networking.networkoperators.hotspotauthenticationcontext
 windows.networking.networkoperators.knowncsimfilepaths
@@ -34799,7 +34690,6 @@ windows.system.profile.systemmanufacturers.smbiosinformation
 windows.system.profile.systemmanufacturers.systemsupportinfo
 windows.system.profile.systemsetupinfo
 windows.system.profile.windowsintegritypolicy
-windows.system.remotedesktop.input.remotetextconnection
 windows.system.remotedesktop.interactivesession
 windows.system.remotelauncher
 windows.system.remotelauncheroptions
@@ -34900,25 +34790,8 @@ windows.ui.input.spatial.internal.priveventargs
 windows.ui.input.spatial.spatialgesturerecognizer
 windows.ui.input.spatial.spatialinteractionmanager
 windows.ui.input.spatial.spatialpointerpose
-windows.ui.internal.input.eyecontrolapp
-windows.ui.internal.input.eyecontrolui
 windows.ui.internal.input.interactiveobjectdevicemanager
 windows.ui.internal.input.physicalgesturerecognizer
-windows.ui.internal.text.core.coreinputviewmanager
-windows.ui.internal.text.core.corekeyboardclient
-windows.ui.internal.text.core.corekeyboardinputprofile
-windows.ui.internal.text.core.corekeyboardinputprofilemanager
-windows.ui.internal.text.core.corekeyboardmanager
-windows.ui.internal.text.core.coretexteditbuffer
-windows.ui.internal.text.core.coretexteditviewjunction
-windows.ui.internal.text.core.coretextkeyeventlistener
-windows.ui.internal.text.core.coretextkeyinjector
-windows.ui.internal.text.core.coretextsysteminputprocessor
-windows.ui.internal.text.hotkeyclient
-windows.ui.internal.text.remote.remotetextappintegration
-windows.ui.internal.text.shell.emojisearchdatasource
-windows.ui.internal.text.shell.hittargetlanguagemodel
-windows.ui.internal.text.shell.hittargettouchmodel
 windows.ui.notifications.adaptivenotificationtext
 windows.ui.notifications.badgenotification
 windows.ui.notifications.badgeupdatemanager
@@ -34950,14 +34823,10 @@ windows.ui.shell.taskbarmanager
 windows.ui.startscreen.secondarytile
 windows.ui.startscreen.startscreenmanager
 windows.ui.text.contentlinkinfo
-windows.ui.text.core.coretextservicesmanager
-windows.ui.text.core.coretexttextformat
 windows.ui.text.fontweights
 windows.ui.text.textconstants
 windows.ui.viewmanagement.accessibilitysettings
 windows.ui.viewmanagement.applicationviewscaling
-windows.ui.viewmanagement.core.coreframeworkinputview
-windows.ui.viewmanagement.core.coreinputview
 windows.ui.viewmanagement.core.uisettingscontroller
 windows.ui.viewmanagement.uisettings
 windows.ui.webui.webuiapplication
@@ -35786,7 +35655,6 @@ windows.ui.xaml.visualstategroup
 windows.ui.xaml.visualstatemanager
 windows.ui.xaml.visualtransition
 windows.ui.xaml.window
-windows.web.atompub.atompubclient
 windows.web.http.diagnostics.httpdiagnosticprovider
 windows.web.http.filters.httpbaseprotocolfilter
 windows.web.http.headers.httpchallengeheadervalue
@@ -35818,18 +35686,5 @@ windows.web.http.httprequestmessage
 windows.web.http.httpresponsemessage
 windows.web.http.httpstreamcontent
 windows.web.http.httpstringcontent
-windows.web.syndication.syndicationattribute
-windows.web.syndication.syndicationcategory
-windows.web.syndication.syndicationclient
-windows.web.syndication.syndicationcontent
-windows.web.syndication.syndicationerror
-windows.web.syndication.syndicationfeed
-windows.web.syndication.syndicationgenerator
-windows.web.syndication.syndicationitem
-windows.web.syndication.syndicationlink
-windows.web.syndication.syndicationnode
-windows.web.syndication.syndicationperson
-windows.web.syndication.syndicationtext
 windows.web.ui.interop.webviewcontrolprocess
 windows.web.ui.interop.webviewcontrolprocessoptions
-windows.web.weberror

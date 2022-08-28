@@ -46,9 +46,9 @@ var $patches_opt = {
     "component.dsmsvc":true,
     "MTP.mtphelper":"mtpHelper.sys",
     "IME.indicator":true,
-    "IME.system_ime":true,
+    "IME.system_ime":false,
     "IME.ms_pinyin":true,
-    "IME.ms_Phonetic":true,
+    "IME.ms_Phonetic":false,
     "component.notepad":true,
     "7-zip.selected_assoc_exts":"7z,zip,rar,cab,iso,xz,tar,bzip2,gz,gzip,wim",
     "material.location":"X:",
@@ -114,7 +114,7 @@ var $patches_opt = {
     "network.hide_system_tray_icon":true,
     "network.networklist_and_sharecenter":true,
     "audio.win_events":"base",
-    "audio.hide_system_tray_icon":false,
+    "audio.hide_system_tray_icon":true,
     "component.MTP":true,
     "component.RNDIS":true,
     "component.printer":true,
@@ -152,7 +152,7 @@ var $patches_opt = {
     "custom.restart_explorer_menu":true,
     "custom.restart_explorer_item":"重启桌面进程",
     "custom.show_cmd_menu":true,
-    "winxshell.ui_volume.startup":false,
+    "winxshell.ui_volume.startup":true,
     "winxshell.ui_volume.no_beep":false,
     "winxshell.ui_wifi.startup":false,
     "SIB.skin":"Plain10",
@@ -202,16 +202,16 @@ function patches_state_init() {
     uncheck_tree_node("01-Components/00-Boot2WinRE");
     check_tree_node("01-Components/00-Shell/Explorer");
     check_tree_node("01-Components/00-Shell/WinXShell");
+    select_tree_node("01-Components/00-Shell/WinXShell");
     uncheck_tree_node("01-Components/00-Shell/za-StartMenu/Classic Shell");
     check_tree_node("01-Components/00-Shell/za-StartMenu/StartIsBack");
     open_tree_node("01-Components/00-Shell/za-StartMenu");
-    select_tree_node("01-Components/00-Shell");
     open_tree_node("01-Components/00-Shell");
     check_tree_node("01-Components/02-Network");
     check_tree_node("01-Components/03-Audio");
     check_tree_node("01-Components/CredDialog");
     check_tree_node("01-Components/Devices and Printers");
-    uncheck_tree_node("01-Components/IME");
+    check_tree_node("01-Components/IME");
     uncheck_tree_node("01-Components/Internet Explorer");
     check_tree_node("01-Components/Remote Desktop");
     uncheck_tree_node("01-Components/Windows Media Player");
