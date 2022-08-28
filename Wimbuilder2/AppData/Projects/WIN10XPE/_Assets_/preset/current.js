@@ -7,7 +7,7 @@ var $patches_opt = {
     "account.autologon_countdown":5,
     "account.admin_screen":"wallpaper",
     "system.darktheme":false,
-    "theme.title_color":"8",
+    "theme.title_color":"1",
     "config.fbwf.cache":"128GB",
     "config.computername":"Edgeless",
     "system.workgroup":"WORKGROUP",
@@ -35,7 +35,7 @@ var $patches_opt = {
     "adk.wpe_path":"C:\\Program Files (x86)\\Windows Kits\\10\\Assessment and Deployment Kit\\Windows Preinstallation Environment",
     "adk.lang":"zh-CN",
     "desktop.iconsize":"48",
-    "shell.use_theme_color":true,
+    "shell.use_theme_color":false,
     "shell.startmenu":"StartAllBack",
     "SIB.version":"*",
     "SIB.programs.flyout":false,
@@ -137,8 +137,8 @@ var $patches_opt = {
     "appcompat.property_page":true,
     "appcompat.assistant":false,
     "slim.ieframedll":false,
-    "slim.jscript":false,
-    "slim.hta":false,
+    "slim.jscript":true,
+    "slim.hta":true,
     "slim.wmi":false,
     "slim.small_fonts":true,
     "slim.small_imageresdll":true,
@@ -204,7 +204,6 @@ function patches_state_init() {
     check_tree_node("01-Components/00-Shell/WinXShell");
     uncheck_tree_node("01-Components/00-Shell/za-StartMenu/Classic Shell");
     check_tree_node("01-Components/00-Shell/za-StartMenu/StartIsBack");
-    select_tree_node("01-Components/00-Shell/za-StartMenu/StartIsBack");
     open_tree_node("01-Components/00-Shell/za-StartMenu");
     open_tree_node("01-Components/00-Shell");
     check_tree_node("01-Components/02-Network");
@@ -236,12 +235,7 @@ function patches_state_init() {
     check_tree_node("10-MyCustom/00-MySystem.LINK");
     uncheck_tree_node("10-MyCustom/01-MyDrivers.LINK");
     uncheck_tree_node("10-MyCustom/10-MyApps.LINK");
-    uncheck_tree_node("10-MyCustom/11-MyMaterial/00-Collection.LINK");
-    uncheck_tree_node("10-MyCustom/11-MyMaterial/01-Maintenance.LINK");
-    uncheck_tree_node("10-MyCustom/11-MyMaterial/02-Network.LINK");
-    uncheck_tree_node("10-MyCustom/11-MyMaterial/03-Media.LINK");
-    uncheck_tree_node("10-MyCustom/11-MyMaterial/04-OfficeApps.LINK");
-    check_tree_node("10-MyCustom/11-MyMaterial/10-Others.LINK");
+    uncheck_tree_node("10-MyCustom/11-MyMaterial.LINK");
     open_tree_node("10-MyCustom/11-MyMaterial.LINK");
     check_tree_node("10-MyCustom/MyContextMenu.LINK");
     uncheck_tree_node("10-MyCustom/MyStartMenu.LINK");
@@ -254,4 +248,5 @@ function patches_state_init() {
     check_tree_node("zz-ISO");
     check_tree_node("zz-Utils");
     open_tree_node("zz-Utils");
+    select_tree_node("00-Configures/Loader");
 }
