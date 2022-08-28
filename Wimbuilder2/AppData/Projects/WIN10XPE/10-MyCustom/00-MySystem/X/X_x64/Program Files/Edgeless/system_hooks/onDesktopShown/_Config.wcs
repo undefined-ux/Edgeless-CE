@@ -1,11 +1,11 @@
 //此文件用于取代Launcher.bat中的功能开关
-
+logs X:\Windows\onDesktopShown.log.txt
 //读取分辨率配置信息
 ifex X:\Users\Config\分辨率.txt,
 {
     read X:\Users\Config\分辨率.txt,1,RESOLUTION
     writ X:\Users\Log.txt,$+0,config-读取分辨率配置：%RESOLUTION%
-    ifex |%RESOLUTION%=DisableAutoSuit,!disp %RESOLUTION%
+    ifex |%RESOLUTION%=DisableAutoSuit,!DISP %RESOLUTION%
 }
 
 //补充Windows文件夹内容

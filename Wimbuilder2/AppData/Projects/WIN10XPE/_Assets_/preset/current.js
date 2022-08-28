@@ -7,7 +7,7 @@ var $patches_opt = {
     "account.autologon_countdown":5,
     "account.admin_screen":"wallpaper",
     "system.darktheme":false,
-    "theme.title_color":"1",
+    "theme.title_color":"8",
     "config.fbwf.cache":"128GB",
     "config.computername":"Edgeless",
     "system.workgroup":"WORKGROUP",
@@ -205,6 +205,7 @@ function patches_state_init() {
     uncheck_tree_node("01-Components/00-Shell/za-StartMenu/Classic Shell");
     check_tree_node("01-Components/00-Shell/za-StartMenu/StartIsBack");
     open_tree_node("01-Components/00-Shell/za-StartMenu");
+    select_tree_node("01-Components/00-Shell");
     open_tree_node("01-Components/00-Shell");
     check_tree_node("01-Components/02-Network");
     check_tree_node("01-Components/03-Audio");
@@ -225,7 +226,7 @@ function patches_state_init() {
     uncheck_tree_node("02-Apps/Explorer++");
     uncheck_tree_node("02-Apps/HotSwap");
     uncheck_tree_node("02-Apps/ImDisk");
-    check_tree_node("02-Apps/Notepad2");
+    check_tree_node("02-Apps/Notepad3");
     check_tree_node("02-Apps/PENetwork");
     uncheck_tree_node("02-Apps/yong_IME");
     open_tree_node("02-Apps");
@@ -248,5 +249,4 @@ function patches_state_init() {
     check_tree_node("zz-ISO");
     check_tree_node("zz-Utils");
     open_tree_node("zz-Utils");
-    select_tree_node("00-Configures/Loader");
 }
